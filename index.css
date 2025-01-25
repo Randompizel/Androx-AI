@@ -1,0 +1,245 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background: #0F121D;
+    font-family: Roboto Flex,sans-serif;
+ }
+ 
+ a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+ }
+ 
+ header {
+     height: 85px;
+     padding: 0 75px;
+     margin: 0 auto;
+     align-items: center;
+     display: flex;
+     justify-content: space-between;
+     border-bottom: solid 1px #191D30;
+ }
+ 
+ .header-left {
+    height: 45px;
+    display: flex;
+    align-items: center;
+ }
+ 
+ .main-right-img {
+     width: 300px;
+     height: 300px;
+ }
+ 
+ .header-right {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .header-text {
+     margin: 0 30px 0;
+     font-size: 17px;
+     font-weight: 400;
+     letter-spacing: 1px;
+     color: #979797;
+     text-decoration: none;
+     font-family: Roboto Flex, sans-serif;
+ }
+ 
+ .airdrop-btn {
+    margin: 0 0 0 30px;
+    height: 38px;
+    width: 130px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #0a0e13;
+    background: #6CE3C4;
+ }
+
+ .header-logo-img {
+    width: 45px;
+    height: 45px;
+}
+
+.header-logo-txt {
+  margin: 0 0 0 10px;
+  font-size: 20px; 
+  font-weight: 600; 
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.header-twitter-logo {
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+}
+
+section {
+    max-width: 1150px;
+    padding: 150px 40px;
+    margin: 0 auto;
+ }
+
+ h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+ }
+
+ a {
+    text-decoration: none;
+ }
+
+.main-left {
+    max-width: 555px;
+}
+
+.main-title {
+  font-size: 55px;
+  font-weight: 600; 
+  letter-spacing: 1px;
+  color: #fff;
+  text-align: left;
+  font-family: Roboto Flex,sans-serif;
+}
+
+.main-desc {
+  margin: 25px 0 0 0;
+  font-size: 19px;
+  font-weight: 400; 
+  letter-spacing: 1px;
+  color: #979797;  
+  font-family: Roboto Flex,sans-serif;
+}
+
+.main-btn {
+  width: 75%;
+  margin: 25px 0 0;
+  height: 48px;
+  border-radius: 6px;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  font-family: Roboto Flex, sans-serif;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: #FD6B14;
+}
+
+.main-right {
+    width: 550px;
+}
+
+.main-contaier {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-main-right {
+  
+  width: 550px;
+  height: 600px;
+  padding: 32px;  
+  display: flex;
+  align-items: center;
+}
+
+.rm {
+  margin: 0 30px 0 0;
+}
+
+.second-main-desc {
+  width: 85%;
+  margin: 0 0 0 25px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  color: #fff;
+  font-family: Roboto Flex, sans-serif;
+}
+
+.main-container-info {
+    margin: 40px 0 0 0;
+    padding: 0 10px 15px 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px #191D30;
+}
+
+.second-main-right-gif {
+  height: 450px;
+  width: 100%; 
+  border-radius: 6px;
+  
+}
+
+
+.redas {
+  border-radius: 22px;
+ background: #000;
+}
+
+.redas-title {
+    padding: 30px;
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    text-align: left;
+    font-family: Roboto Flex, sans-serif;
+}
+
+footer {
+ padding: 50px;
+ margin: 100px 0 0 0;
+ font-size: 13px;
+ font-weight: 600;
+ letter-spacing: 1px;
+ margin: 15px 0 0 0;
+ font-family: Roboto Flex, sans-serif;
+ color: #979797;
+ display: flex;
+ gap: 30px;
+ align-items: center;
+ justify-content: center;
+ background: #0a0e13;
+}
+   
+
+.dddd {
+    margin: 30px 0 0 0;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: #fff;
+    font-family: Roboto Flex, sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+.small-area {
+   padding: 60px; 
+}
+
+
+
+
+@media all and  (max-width: 850px) { 
+  
+}
